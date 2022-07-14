@@ -19,9 +19,9 @@
 			<ul>
 				<li><a href="TrangChu.aspx">Trang chủ</a></li>
 				<li><a href="gioithieu.aspx">Giới thiệu</a></li>
-				<li><a href="donghonam.aspx">Toàn bộ khóa học</a></li>
-                <li><a href="Giohang.aspx">Khóa học của bạn</a></li>
-				<li><a href="donghonu.aspx">Luyện tập</a></li>
+				<li><a href="AllCourses.aspx">Toàn bộ khóa học</a></li>
+                <li><a href="MyCourses.aspx">Khóa học của bạn</a></li>
+				
 				<li><a href="Lienhe.aspx">Liên hệ</a></li>
 				
 			</ul>
@@ -62,8 +62,8 @@
 				<h1>Liên Kết</h1>
 				<ul>
 					<li><a href="gioithieu.aspx">Giới thiệu</a></li>
-					<li><a href="donghonam.aspx">Học tập</a></li>
-					<li><a href="donghonu.aspx">Luyện tập</a></li>
+					<li><a href="AllCourses.aspx">Học tập</a></li>
+					
 					<li><a href="Lienhe.aspx">Liên hệ</a></li>
 				</ul>
 			</div>

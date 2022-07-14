@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TrangChu.aspx.cs" Inherits="WebHocTap.TrangChu" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MyCourses.aspx.cs" Inherits="WebHocTap.MyCourses" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -30,9 +31,9 @@
 		</div>
 	</div>
 
-	<h1 class="h1">Các khóa học hot</h1>
+	<h1 class="h1">Khóa học bạn đã đăng ký</h1>
 	<div class="course">
-			<asp:ListView ID="hot" runat="server">
+			<asp:ListView ID="myCourses" runat="server">
 				<ItemTemplate>
 					<div class="hot">
 					<a href="CourseDetail.aspx?id=<%# Eval("Id") %>">
@@ -47,53 +48,6 @@
 			</asp:ListView>
 	</div>
 
-	<h1 class="h1">Các khóa học mới</h1>
-			<div class="new">
-				<asp:ListView ID="New_Courses" runat="server">
-		<ItemTemplate>
-				<div class="New_Courses">
-					<a href="CourseDetail.aspx?id=<%# Eval("Id") %>">
-						<img id="anh2" width="200" height="80" src="<%# Eval("Image") %>" title="Khóa học">
-						<div class="New_Courses_Name">
-							<strong><%# Eval("Name") %></strong>
-						</div>
-					</a>
-				</div>
-			</ItemTemplate>
-	</asp:ListView>
-			</div>
-		
-	<h1 class="h1">Hướng dẫn</h1>
-	<div class="Tutorials">
-		<div class="tutorial">
-			<div class="tutorial_1">
-				<a href="#">
-					<img src="Images/exam.jpg" title="Hướng dẫn">
-					<h5>Hướng dẫn giải đề thi THPT năm 2022</h5>
-					<p>Hướng dẫn và đáp án đề thi THPT các môn năm 2022</p>
-				</a>	
-			</div>
-		</div>
-		<div class="tutorial">
-			<div class="tutorial_1">
-				<a href="#">
-					<img src="Images/tutorial.jpg" title="Hướng dẫn">
-					<h5>Tạo một trang Web bán hàng đơn giản với ASP.NET MVC</h5>
-					<p>Trong loạt bài này, các bạn sẽ được hướng dẫn tạo ...</p>
-				</a>	
-			</div>
-		</div>
-		<div class="tutorial">
-			<div class="tutorial_1">
-				<a href="#">
-					<img src="Images/exam2.jpg" title="Hướng dẫn">
-					<h5>Bộ 100 đề kiểm tra giải tích 1 kèm đáp án</h5>
-					<p>100 đề kiểm tra giải tích 1 được tổng hợp từ các trường đại học trong nước</p>
-				</a>	
-			</div>
-		</div>
-	</div>
-	
 	<div class="footer">
 		<div class="footer_top">
 			<div class="Thongtinlienhe">
@@ -122,18 +76,6 @@
 		</div>
 		
 	</div>
-	<script>
-        
-		function responsive()
-		{
-			var x = document.getElementById("header-bot");
-			if (x.className === "header_bot"){
-				x.className += "responsive";
-			}
-			else {
-				x.className = "header_bot";
-            }
-		}
-    </script>
+	
 </body>
 </html>

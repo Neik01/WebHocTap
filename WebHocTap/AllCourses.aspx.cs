@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebHocTap
 {
-    public partial class TrangChu : System.Web.UI.Page
+    public partial class AllCourses : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -17,27 +17,16 @@ namespace WebHocTap
                                   "<a href = 'logout.aspx'> Đăng xuất </a>";
 
             }
-
             List<Course> CourseList = (List<Course>)Application["CourseList"];
-            List<Course> HotCourses = new List<Course>();
-            List<Course> NewCourses = new List<Course>();
-
+            List<Course> list = new List<Course>();
             foreach (Course course in CourseList)
             {
-                string id =course.Id;
-                if (id == "1" || id == "2" || id == "3" || id == "4")
-                {
-                    HotCourses.Add(course);
-                }
-                if (id == "5" || id == "6" || id == "7" || id == "8")
-                {
-                    NewCourses.Add(course);
-                }
+                    list.Add(course);
+                
             }
-            hot.DataSource = HotCourses;
-            hot.DataBind();
-            New_Courses.DataSource = NewCourses;
-            New_Courses.DataBind();
+            all.DataSource = list;
+            all.DataBind();
+
         }
     }
-}
+   }

@@ -27,13 +27,13 @@
     }
 
     .header_top .login {
-        margin-left: 60%;
+        margin-left: 50%;
         text-decoration: none;
-        display: flex;
     }
 
         .header_top .login p {
             color: white;
+            display: inline;
         }
 
         .header_top .login a {
@@ -127,7 +127,7 @@
         color: #C89979;
     }
 
-.course .hot .themvaogio {
+.course .hot .register {
     font-size: 16px;
     background-color: #C89979;
     width: 140px;
@@ -211,7 +211,7 @@
         color: #C89979;
     }
 
-.New_Courses .themvaogio {
+.New_Courses .register {
     font-size: 16px;
     background-color: #C89979;
     width: 140px;
@@ -219,7 +219,7 @@
     color: white;
     border: none;
 }
-/*tin tức*/
+/*Hướng dẫn */
 .Tutorials {
     height: auto;
     width: 100%;
@@ -259,12 +259,12 @@
     float: left;
     margin-top: 20px;
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #A5B099;
 }
 
     .footer .footer_top {
-        height: 70%;
+        height: 100%;
         margin: 0px 0px 1px 0px;
         width: 100%;
         background-color: #0390fc;
@@ -560,7 +560,7 @@
     }
 
         .footer .footer_top {
-            height: 70%;
+            height: 100%;
             margin: 0px 0px 1px 0px;
             width: 100%;
             background-color: #353535;
