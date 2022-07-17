@@ -16,6 +16,12 @@ namespace WebHocTap
                 login.InnerHtml = "<p class='user'>Xin chào " + Session["username"].ToString() + " | " + "</p>" +
                                   "<a href = 'logout.aspx'> Đăng xuất </a>";
 
+                if(Session["username"].Equals("administrator"))
+                {
+                    string html = "<li><a href='Admin.aspx'>Trang giảng viên</li>";
+                    nav_bar.InnerHtml += html;
+                }
+
             }
             List<Course> CourseList = (List<Course>)Application["CourseList"];
             List<Course> list = new List<Course>();

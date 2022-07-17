@@ -11,7 +11,7 @@ namespace WebHocTap
 {
 
 
-    public partial class TrangChu
+    public partial class Admin
     {
 
         /// <summary>
@@ -24,30 +24,12 @@ namespace WebHocTap
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
 
         /// <summary>
-        /// nav_bar control.
+        /// createCourseForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl nav_bar;
-
-        /// <summary>
-        /// hot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView hot;
-
-        /// <summary>
-        /// New_Courses control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView New_Courses;
+        protected global::System.Web.UI.HtmlControls.HtmlForm createCourseForm;
     }
 }

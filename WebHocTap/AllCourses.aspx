@@ -17,16 +17,16 @@
 				<a href="DangNhap.aspx" title="Đăng nhập">Đăng nhập</a>
 			</div>	
 		</div>
-		<div class="header_bot" id="header-bot">
-			<ul>
+		<div class="header_bot" id="header_bot">
+			<ul id="nav_bar" runat="server">
 				<li><a href="TrangChu.aspx">Trang chủ</a></li>
-				<li><a href="gioithieu.aspx">Giới thiệu</a></li>
+				
 				<li><a href="AllCourses.aspx">Toàn bộ khóa học</a></li>
                 <li><a href="MyCourses.aspx">Khóa học của bạn</a></li>
 				
 				<li><a href="Lienhe.aspx">Liên hệ</a></li>
 				
-				<a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="responsive() ">&#9776;</a>
+				
 			</ul>
 		</div>
 	</div>
@@ -80,9 +80,7 @@
 			<div class="Lienket">
 				<h1>Liên Kết</h1>
 				<ul>
-					<li><a href="gioithieu.aspx">Giới thiệu</a></li>
 					<li><a href="AllCourses.aspx">Học tập</a></li>
-					
 					<li><a href="Lienhe.aspx">Liên hệ</a></li>
 				</ul>
 			</div>

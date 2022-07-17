@@ -20,7 +20,7 @@
 		<div class="header_bot">
 			<ul>
 				<li><a href="Trangchu.aspx">Trang chủ</a></li>
-				<li><a href="gioithieu.aspx">Giới thiệu</a></li>
+				
 				<li><a href="AllCourses.aspx">Toàn bộ khóa học</a></li>
                 <li><a href="MyCourses.aspx">Khóa học của bạn</a></li>
 				
@@ -58,14 +58,14 @@
                         <p></p>
                     </div>
                     <p runat="server" id="btn_error" style="color:red"></p>
-                    <button class="auth_btn" id="btnReg">Đăng ký</button>
+                    <button  class="auth_btn" id="btnReg">Đăng ký</button>
                 </div>
                 </form>
             </div>
         
     </div>
-    <div class="footter">
-		<div class="footter_top">
+    <div class="footer">
+		<div class="footer_top">
 			<div class="Thongtinlienhe">
 				<h1>Thông Tin Liên Hệ</h1>
 				<p>Địa chỉ: Định Công, Hoàng Mai, Hà Nội	</p>
@@ -75,7 +75,7 @@
 			<div class="Lienket">
 				<h1>Liên Kết</h1>
 				<ul>
-					<li><a href="gioithieu.aspx">Giới thiệu</a></li>
+					
 					<li><a href="AllCourses.aspx">Học tập</a></li>
 					
 					<li><a href="Lienhe.aspx">Liên hệ</a></li>

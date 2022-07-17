@@ -18,7 +18,7 @@
 		<div class="header_bot">
 			<ul>
 				<li><a href="TrangChu.aspx">Trang chủ</a></li>
-				<li><a href="gioithieu.aspx">Giới thiệu</a></li>
+				
 				<li><a href="AllCourses.aspx">Toàn bộ khóa học</a></li>
                 <li><a href="MyCourses.aspx">Khóa học của bạn</a></li>
 				
@@ -50,8 +50,8 @@
                 </form>
             </div>
 		</div>
-    <div class="footter">
-		<div class="footter_top">
+    <div class="footer">
+		<div class="footer_top">
 			<div class="Thongtinlienhe">
 				<h1>Thông Tin Liên Hệ</h1>
 				<p>Địa chỉ: Định Công, Hoàng Mai, Hà Nội	</p>
@@ -61,7 +61,7 @@
 			<div class="Lienket">
 				<h1>Liên Kết</h1>
 				<ul>
-					<li><a href="gioithieu.aspx">Giới thiệu</a></li>
+					
 					<li><a href="AllCourses.aspx">Học tập</a></li>
 					
 					<li><a href="Lienhe.aspx">Liên hệ</a></li>
@@ -76,11 +76,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="footter_bot">
-			<div class="copyright">
-        		© Bản quyền thuộc về nhóm 10
-			</div>
-		</div>
+	
 
 	</div>
 <script>
